@@ -26,6 +26,11 @@ git clone https://github.com/Nikki0526/ChemistX.git
 ![image](https://github.com/Nikki0526/ChemistX/blob/main/workflow.png)
 
 ## Phase 1
-* ``$ phase1.py`` and ``$ phase1.ipynb`` demonstrates the process in Phase 1, including top match slice (TMS) selection and automatic code generation with GPT. 
+* ``$ phase1.py`` and ``$ phase1.ipynb`` demonstrate the process in Phase 1, including top match slice (TMS) selection and automatic code generation with GPT. 
 * The output should be the API code which could lead to similar molecules.
 *  We also provide a colab version, which can help users easily access our code and environment by clicking: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QqEA0MwoUKaBm0K_CiLT5ukgcKeDH42N?usp=sharing). 
+
+## Phase 1
+* ``$ phase2.py`` demonstrates the process in Phase 2, including the prompt we used and automatic code generation with GPT. 
+* The output should be the information retrived from the Internet.
+*  We also provide a colab version, which can help users easily access our code and environment by clicking: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12qmYG83HnN_mpt9GqoN2pgVWc6tNPJu2?usp=sharing). 
