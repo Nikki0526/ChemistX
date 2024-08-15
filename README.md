@@ -33,4 +33,9 @@ git clone https://github.com/Nikki0526/ChemistX.git
 ## Phase 2
 * ``$ phase2.py`` demonstrates the process in Phase 2, including the prompt we used and automatic code generation with GPT. 
 * The output should be the information retrived from the Internet.
-*  We also provide a colab demo, which can help users easily access our code and environment by clicking: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12qmYG83HnN_mpt9GqoN2pgVWc6tNPJu2?usp=sharing). 
+*  We also provide a colab demo, which can help users easily access our code and environment by clicking: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12qmYG83HnN_mpt9GqoN2pgVWc6tNPJu2?usp=sharing).
+
+## Phase 3
+* ``$ phase3.py`` demonstrates the process in Phase 3, including CIMG descriptor and coarse yield labels generation, SCL Network, and ML models. 
+* The output should be the recommended reaction condition.
+*  We also provide a colab demo, which can help users easily access our code and environment by clicking: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1307u0ZY4kOX84CNBbCrVcJ74dsbHKVsy/view?usp=sharing).
