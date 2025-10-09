@@ -36,11 +36,6 @@ The software has been tested on the Colab / Ubuntu 18.04 system.
  - langchain
  - sklearn
 ```
-### Installation Guide
-Clone this repo from github
-```
-git clone https://github.com/Nikki0526/ChemistX.git
-```
 ### Repo Structure
 
 ```md
