@@ -111,7 +111,7 @@ def train_and_search(p_train, p_train_add, p_test, p_test_add, p_en, t_model, f_
 
 #### Demo
 
-`phase1.ipynb`, `phase2.ipynb`, and `phase3.ipynb` are demos for each phase. We also provide online scripts deployed on `Colab` that allows users to easily access our code and environment, enabling them to reproduce our results for each phase
+`phase1.ipynb`([![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1y7x6EVxC0fZhyOJDY-ES2QFKgZALpv88/view?usp=sharing)), `phase2.ipynb`, and `phase3.ipynb` are demos for each phase. We also provide online scripts deployed on `Colab` that allows users to easily access our code and environment, enabling them to reproduce our results for each phase
 
 
 ## Phase 1
