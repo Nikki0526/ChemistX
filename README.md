@@ -6,17 +6,15 @@ This is the implementation for our paper [Chemist-X: Large Language Model-empowe
 
 ### Phase 1: Information Retrieval
 
-- Given the provided professional chemical database, load the knowledge into the default OpenAI agent to enable generation of reaction condition optimization tasks.
-- Validate the model stability of the Top Match Slice (TMS) selection and the automatic code generation using GPT.
-- The output should be data fetched from online sources.
+-  ``$ phase1.ipynb`` demonstrate the process in Phase 1, including top match slice (TMS) selection and automatic code generation with GPT. 
 
 ### Phase 2: Final Recommendation
 
-- Using the CIMG descriptor, coarse yield label generation, the SCL network, and machine learning models, train the system to output recommended reaction conditions.
+- ``$ phase2.ipynb`` demonstrates the process in Phase 2, including CIMG descriptor and coarse yield labels generation, SCL Network, and ML models.
 
 ### Phase 3: Robotic System Control
 
-- Deploy and execute the reactions on the machine to validate real-world performance.
+- ``$ phase3.ipynb`` demonstrates the process in Phase 3, including executing the reactions via controlling the screen of synthesis robot.
 
 ## Setup
 ### Hardware requirements
