@@ -111,9 +111,22 @@ def train_and_search(p_train, p_train_add, p_test, p_test_add, p_en, t_model, f_
 
 #### Demo
 
-`phase1.ipynb`, `phase2.ipynb`, and `phase3.ipynb` are demos for each phase. We also provide online scripts deployed on `Colab` that allows users to easily access our code and environment, enabling them to reproduce our results by clicking:
+`phase1.ipynb`, `phase2.ipynb`, and `phase3.ipynb` are demos for each phase. We also provide online scripts deployed on `Colab` that allows users to easily access our code and environment, enabling them to reproduce our results for each phase:
  - Phase 1 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1y7x6EVxC0fZhyOJDY-ES2QFKgZALpv88/view?usp=sharing)
+ - Phase 2 -[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1sODYNcptTlt7QJY_73TRsQyXsKvuw4g-/view?usp=sharing)
+ - Phase 3 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1oEq04sl2zEP1yMm6hKdZi5UsbRQE6Ajb/view?usp=sharing)
 
+### Installation Guide
+
+Clone the repo and update the workspace path manually in the scripts
+
+```sh
+git clone https://github.com/Nikki0526/ChemistX.git
+```
+
+## Questions
+
+If you have any questions regarding the code, feel free to reach out at kexinchen0526@gmail.com.
 
 ## Phase 1
 * ``$ phase1.py`` and ``$ phase1.ipynb`` demonstrate the process in Phase 1, including top match slice (TMS) selection and automatic code generation with GPT. 
