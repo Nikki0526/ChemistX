@@ -23,7 +23,7 @@ git clone https://github.com/Nikki0526/ChemistX.git
 ```
 
 ## Workflow
-![image](https://github.com/Nikki0526/ChemistX/blob/main/workflow.png)
+![image](https://github.com/Nikki0526/ChemistX/blob/main/workflow_diagram.PNG)
 
 ## Phase 1
 * ``$ phase1.py`` and ``$ phase1.ipynb`` demonstrate the process in Phase 1, including top match slice (TMS) selection and automatic code generation with GPT. 
