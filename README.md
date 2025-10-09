@@ -29,6 +29,9 @@ The software has been tested on the Colab / Ubuntu 18.04 system.
 ```
  - openai==1.3.7
  - tensorflow==2.13
+ - numpy==1.25.2
+ - pandas==1.4.0
+ - keras==3.8.0
  - chromadb
  - langchain
  - sklearn
