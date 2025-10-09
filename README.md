@@ -109,6 +109,11 @@ def train_and_search(p_train, p_train_add, p_test, p_test_add, p_en, t_model, f_
 | `t_model`        | Model type to use: `"rf"` for Random Forest, `"xgb"` for XGBoost, `"ft"` for FTTransformer |
 | `f_nums`         | Number of PCA components/features to retain |
 
+#### Demo
+
+`phase1.ipynb`, `phase2.ipynb`, and `phase3.ipynb` are demos for each phase. We also provide online scripts deployed on `Colab` that allows users to easily access our code and environment, enabling them to reproduce our results for each phase
+
+
 ## Phase 1
 * ``$ phase1.py`` and ``$ phase1.ipynb`` demonstrate the process in Phase 1, including top match slice (TMS) selection and automatic code generation with GPT. 
 * The output should be the API code which could lead to similar molecules.
