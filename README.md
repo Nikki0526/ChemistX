@@ -1,5 +1,22 @@
 # Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis and Self-driving Lab
-This is the implementation for our paper "Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis and Self-driving Lab".
+This is the implementation for our paper [Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis and Self-driving Lab](https://arxiv.org/abs/2311.10776).
+
+## Workflow
+![image](https://github.com/Nikki0526/ChemistX/blob/main/workflow_diagram.PNG)
+
+### Phase 1: Information Retrieval
+
+- Given the provided professional chemical database, load the knowledge into the default OpenAI agent to enable generation of reaction condition optimization tasks.
+- Validate the model stability of the Top Match Slice (TMS) selection and the automatic code generation using GPT.
+- The output should be data fetched from online sources.
+
+### Phase 2: Final Recommendation
+
+- Using the CIMG descriptor, coarse yield label generation, the SCL network, and machine learning models, train the system to output recommended reaction conditions.
+
+### Phase 3: Robotic System Control
+
+- Deploy and execute the reactions on the machine to validate real-world performance.
 
 ## Setup
 ### Hardware requirements
@@ -22,8 +39,7 @@ Clone this repo from github
 git clone https://github.com/Nikki0526/ChemistX.git
 ```
 
-## Workflow
-![image](https://github.com/Nikki0526/ChemistX/blob/main/workflow_diagram.PNG)
+
 
 ## Phase 1
 * ``$ phase1.py`` and ``$ phase1.ipynb`` demonstrate the process in Phase 1, including top match slice (TMS) selection and automatic code generation with GPT. 
