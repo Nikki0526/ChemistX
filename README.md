@@ -41,7 +41,28 @@ Clone this repo from github
 ```
 git clone https://github.com/Nikki0526/ChemistX.git
 ```
+### Repo Structure
 
+```md
+.
+├── src/
+│   ├── search_test.py
+│   ├── search.py
+│   ├── train_and_search.py
+│   ├── data_train/
+│   │   ├── data_additive.csv
+│   │   ├── data_projected_vector.csv
+│   │   └── data_test_20231007.csv
+│   ├── data_test/
+│   │   ├── data_additive_mean.csv
+│   │   └── wetlab_subspace.csv
+│   └── ...
+├── phase1.ipynb
+├── phase2.ipynb
+├── phase3.ipynb
+├── workflow_diagram.png
+└── README.md
+```
 
 
 ## Phase 1
