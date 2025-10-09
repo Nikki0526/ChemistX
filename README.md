@@ -63,7 +63,56 @@ git clone https://github.com/Nikki0526/ChemistX.git
 ├── workflow_diagram.png
 └── README.md
 ```
+#### `src/` contains funciton codes for `phase 2`
 
+TLDR, `train_and_search.py` is used for end-to-end training + inference during model development. `search.py` is used for inference only, when a trained model is already available. `search_test.py` is used for internal testing and development.
+
+#### `search_test.py`
+
+`search()` ranks chemical combinations based on predicted effectiveness using a machine learning model, leveraging chemical descriptors (CIMG vectors) retrieved via web automation.
+
+```python
+def search(p_raw, p_add, p_en, p_dim_reducer, p_model)
+```
+| Parameter        | Description |
+|------------------|-------------|
+| `p_raw`          | Path to raw SMILES dataset |
+| `p_add`          | Path to additive dataset |
+| `p_en`           | Path to pre-trained encoder model |
+| `p_dim_reducer`  | Path to pre-trained dimension reducer model |
+| `p_model`        | Path to pre-trained model |
+
+#### `search.py`
+
+`search()` ranks chemical compounds based on ther `SMILES` strings using a machine learning pipeline. It outputs the top 5 most promising candidates as predicted by a pre-trained model.
+
+```python
+def search(p_test, p_test_add, p_en, p_dim_reducer, p_model)
+```
+| Parameter        | Description |
+|------------------|-------------|
+| `p_test`         | Path to SMILES test dataset |
+| `p_test_add`     | Path to additive test dataset |
+| `p_en`           | Path to pre-trained encoder model |
+| `p_dim_reducer`  | Path to pre-trained dimension reducer model |
+| `p_model`        | Path to pre-trained model |
+
+#### `train_and_search`
+
+`train_and_search()` combines model training and prediction for chemical compound evaluation, using machine learning models such as `Random Forest`, `XGBoost`, or `FFTransformer`.
+
+```python
+def train_and_search(p_train, p_train_add, p_test, p_test_add, p_en, t_model, f_nums)
+```
+| Parameter        | Description |
+|------------------|-------------|
+| `p_train`        | Path to the training dataset (projected vectors) |
+| `p_train_add`    | Path to additive data for training |
+| `p_test`         | Path to test SMILES dataset |
+| `p_test_add`     | Path to additive data for test set |
+| `p_en`           | Path to pre-trained encoder model (for embedding) |
+| `t_model`        | Model type to use: `"rf"` for Random Forest, `"xgb"` for XGBoost, `"ft"` for FTTransformer |
+| `f_nums`         | Number of PCA components/features to retain |
 
 ## Phase 1
 * ``$ phase1.py`` and ``$ phase1.ipynb`` demonstrate the process in Phase 1, including top match slice (TMS) selection and automatic code generation with GPT. 
