@@ -113,7 +113,7 @@ def train_and_search(p_train, p_train_add, p_test, p_test_add, p_en, t_model, f_
 
 `phase1.ipynb`, `phase2.ipynb`, and `phase3.ipynb` are demos for each phase. We also provide online scripts deployed on `Colab` that allows users to easily access our code and environment, enabling them to reproduce our results for each phase:
  - Phase 1 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1y7x6EVxC0fZhyOJDY-ES2QFKgZALpv88/view?usp=sharing)
- - Phase 2 -[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1sODYNcptTlt7QJY_73TRsQyXsKvuw4g-/view?usp=sharing)
+ - Phase 2 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1sODYNcptTlt7QJY_73TRsQyXsKvuw4g-/view?usp=sharing)
  - Phase 3 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1oEq04sl2zEP1yMm6hKdZi5UsbRQE6Ajb/view?usp=sharing)
 
 ### Installation Guide
@@ -127,23 +127,5 @@ git clone https://github.com/Nikki0526/ChemistX.git
 ## Questions
 
 If you have any questions regarding the code, feel free to reach out at kexinchen0526@gmail.com.
-
-## Phase 1
-* ``$ phase1.py`` and ``$ phase1.ipynb`` demonstrate the process in Phase 1, including top match slice (TMS) selection and automatic code generation with GPT. 
-* The output should be the API code which could lead to similar molecules.
-*  We also provide a colab demo, which can help users easily access our code and environment and reproduce our results by clicking: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1y7x6EVxC0fZhyOJDY-ES2QFKgZALpv88/view?usp=sharing). 
-
-## Phase 2
-* ``$ phase2.py`` demonstrates the process in Phase 2, including the prompt we used and automatic code generation with GPT. 
-* The output should be the information retrived from the Internet.
-*  We also provide a colab demo, which can help users easily access our code and environment and reproduce our results by clicking: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1sODYNcptTlt7QJY_73TRsQyXsKvuw4g-/view?usp=sharing).
-
-## Phase 3
-* ``$ phase3.py`` demonstrates the process in Phase 3, including CIMG descriptor and coarse yield labels generation, SCL Network, and ML models. 
-* The output should be the recommended reaction condition.
-*  We also provide a colab demo, which can help users easily access our code and environment and reproduce our results by clicking: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1oEq04sl2zEP1yMm6hKdZi5UsbRQE6Ajb/view?usp=sharing).
-
-## Data
-All the data needed for training and testing are stored in the ``/data`` folder. Generally, time for the installation and demo on a "normal" desktop computer should be about 20 minutes.
 
 
